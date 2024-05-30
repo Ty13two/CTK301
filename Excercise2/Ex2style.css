@@ -1,0 +1,63 @@
+a {
+    color: red;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
+
+.spanstyle {
+    color: tomato;
+}
+.divstyle {
+    color: blue;
+    background-color: rgba(215, 253, 253, 0.932);
+}
+
+h1 {
+    color: red;
+    background-color: black;
+}
+.ex2h2 {
+    color: darkolivegreen;
+    background-color: rgb(89, 155, 155);
+}
+#ex2p {
+    color: rgb(56, 80, 15);
+}
+
+.page2h2 {
+    background-color: darkgoldenrod;
+}
+.page2h3 {
+    color: darkgoldenrod;
+    background-color: black;
+}
+.page2p {
+    color: rgb(138, 101, 8);
+}
+
+.lvl200h2 {
+    color: rgb(75, 152, 155);
+    background-color: rgb(184, 83, 83);
+}
+.lvl200h3 {
+    color: rgb(184, 83, 83);
+    background-color: rgb(123, 161, 231);
+}
+.lvl200p {
+    color: rgb(129, 47, 47);
+}
+.lvl300h2 {
+    color: rgb(129, 173, 41);
+    background-color: rgb(143, 105, 9);
+}
+.lvl300h3 {
+    color: rgb(143, 105, 9);
+    background-color: rgb(129, 173, 41);
+}
+.lvl300p {
+    color: rgb(116, 83, 0);
+}
