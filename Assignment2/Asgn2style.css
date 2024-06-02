@@ -1,0 +1,99 @@
+a {
+    color: red;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: green;
+}
+
+.spanstyle {
+    color: tomato;
+}
+.divstyle {
+    color: blue;
+    background-color: rgba(215, 253, 253, 0.932);
+    width: 300px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+}
+.ex2h2 {
+    color: orange;
+    background-color: rgb(89, 155, 155);
+    font-style: italic;
+    font-weight: normal;
+}
+#ex2p {
+    color: rgb(56, 80, 15);
+    text-align: center;
+}
+
+.page2h2 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+}
+.page2h3 {
+    color: orange;
+    background-color: black;
+    font-style: italic;
+    font-weight: normal;
+}
+.page2p {
+    color: rgb(138, 101, 8);
+    text-align: justify;
+}
+
+.lvl200h2 {
+    color: orange;
+    background-color: rgb(184, 83, 83);
+    font-style: italic;
+    font-weight: normal;
+}
+.lvl200h3 {
+    color: orange;
+    background-color: rgb(84, 120, 187);
+    font-style: italic;
+    font-weight: normal;
+}
+.lvl200p {
+    color: rgb(129, 47, 47);
+}
+.lvl300h2 {
+    color: orange;
+    background-color: rgb(143, 105, 9);
+    font-style: italic;
+    font-weight: normal;
+}
+.lvl300h3 {
+    color: orange;
+    background-color: rgb(99, 131, 36);
+    font-style: italic;
+    font-weight: normal;
+}
+.lvl300p {
+    color: rgb(116, 83, 0);
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(image4.jpg);
+}
+.imgbox {
+    width: 600px;
+    border: 25px solid black;
+    padding: 10px;
+    background-color: yellow;
+    margin: 20px 20px 20px 50px;
+}
