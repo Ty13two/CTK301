@@ -1,0 +1,37 @@
+/*p {
+    color: #ff0000;
+    background-color: #009966;
+  }
+*/
+.specialp {
+    color: #0000ff;
+    background-color: lightgreen;
+}
+#specialp {
+    color: #006600;
+    background-color: orangered;
+}
+#divexample {
+    background-color: #0000ff;
+}
+.spanstyle {
+    color: red;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+a:link {
+    color: green;
+}
+a:visited {
+    color: #0000ff;
+  }
+a:active {
+    color: #00ffff;
+  }
+  a:hover {
+    color: darkgreen;
+    text-decoration: underline;
+  } 
