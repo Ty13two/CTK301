@@ -2,54 +2,59 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Main Page</title>
+	<title>Visual</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-	<link href="Asgn4.2style.css" rel="stylesheet" type="text/css">
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+	<link href="Visualstyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="wrapper">
 		<header>
-			<h1>Hi, I'm Tyler LaVigne</h1>
+			<h1>Visual</h1>
 		</header>
-		<div class="Aboutme">
-			<h2>About Me</h2>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum animi tenetur quibusdam voluptatum quaerat voluptates, dignissimos ab magnam culpa impedit facilis, provident minus quisquam eveniet corrupti eligendi soluta cum error.</p>
-		</div>
 		<nav>
 			<ul>
 				<li><a href="Mainpage.html">Home</a></li>
 				<li><a href="Audiopage.html">Audio</a></li>
-				<li><a href="Visualpage.html">Visual/Video</a></li>
-				<li><a href="Contactpage.html">Contact</a></li>
+				<li><a href="Visualpage.html">Visual</a></li>
+				<li><a href="Contactpage.html">Contact/About</a></li>
 			</ul>
 		</nav>
 		<main>
-			<!--<img class="projectimg" src="newimage.jpg" alt="Biiiiig Yawn">-->
-			<iframe class="audioplayer" style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1721001987/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/" seamless><a href="https://tylerlavigne.bandcamp.com/track/ctk-203-interpolation-schminterpolation-part-3">CTK 203 - Interpolation Schminterpolation (Part 3) by Tyler LaVigne</a></iframe>
-			<div class="projecttext">
-			<h2>Interpolation Schminterpolation - CTK 203</h2>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem repellat fugit atque adipisci sint laboriosam alias. Cupiditate temporibus consectetur doloribus. Perferendis modi expedita repellendus enim aspernatur, labore temporibus mollitia et!</p>
-			</div>
+			<h2>Assorted Visual Classwork</h2>
+			<div class="classworkgallery">
+			<a class="gallery" href="CTK201-RAV1.jpg" data-fancybox="gallery" data-caption="CTK 201 - Random Acts of Vandalism, Part 1">
+				<img src="CTK201-RAV1thumb.jpg">
+			 </a>
+			<a class="gallery" href="CTK201-RAV2.jpg" data-fancybox="gallery" data-caption="CTK 201 - Random Acts of Vandalism, Part 2">
+				<img src="CTK201-RAV2thumb.jpg">
+			 </a>
+			<a class="gallery" href="CTK201-UncomfArt.jpg" data-fancybox="gallery" data-caption="CTK 201 - Uncomfortable Art">
+				<img src="CTK201-UncomfArt-thumb.jpg">
+			 </a>
+			<a class="gallery" href="THE-Boxproject.jpg" data-fancybox="gallery" data-caption="THE 160 - Box Project">
+				<img src="THE-Boxproject-thumb.jpg">
+			 </a>
 			
-			<!--<img class="projectimg" src="newimage.jpg" alt="Biiiiig Yawn">-->
-			<iframe class="audioplayer" style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1719397458/size=large/bgcol=333333/linkcol=2ebd35/tracklist=false/transparent=true/" seamless><a href="https://tylerlavigne.bandcamp.com/track/ctk-203-final-composition">CTK 203 - Final Composition by Tyler LaVigne</a></iframe>
-			<div class="projecttext">
-			<h2>Final Composition - CTK 203</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni non sequi nulla repellat magnam omnis dolorum, distinctio, laborum doloremque accusamus earum ea tempore eos illum excepturi id voluptates reiciendis iure.</p>
-			</div>
 		</main>
 		<footer>
-			<p>Copyright</p> 
+			<p>Copyright Illinois State University</p> 
 			<div class="icons">
-				<a class="bi bi-snapchat" href="https://snapchat.com" target="_blank"></a>
-				<a class="bi bi-instagram" href="https://instagram.com" target="_blank"></a>
-				<a class="bi bi-twitter-x" href="https://x.com" target="_blank"></a>
-				<a class="bi bi-linkedin" href="https://linkedin.com" target="_blank"></a>
+				<a class="bi bi-instagram" href="https://www.instagram.com/ty13two/" target="_blank"></a>
+				<a class="bi bi-music-note-beamed" href="https://tylerlavigne.bandcamp.com/" target="_blank"></a>
+				<a class="bi bi-linkedin" href="https://www.linkedin.com/in/tyler-l-425835270/" target="_blank"></a>
 			</div>
 		</footer>
 	</div>
+	<script>
+	Fancybox.bind("[data-fancybox]", {});
+	</script>
 </body>
 </html>

@@ -11,13 +11,14 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  border-radius: 15px;
 }
 
 header {
   grid-column: span 12;
   background-color: #1B4361;
   color: white;
-  padding: 10px;
+  padding: 10px 10px 10px 15px;
   border: 3px solid #6d6d6d;
   border-radius: 24px;
   box-shadow: 3px 2px 7px #999;
@@ -52,6 +53,18 @@ h1 {
 .Aboutme h2 {
   text-shadow: 2px 1px 10px #999;
 }
+.Aboutme a {
+  text-decoration: none;
+  color: #6d6d6d;
+  margin-top: 100px;
+  font-size: 14px;
+  transition: 1.0s;
+}
+.Aboutme a:hover {
+  font-weight: bold;
+  font-size: 16px;
+  color: #1B4361;
+}
 
 nav {
   grid-column: span 4;
@@ -77,7 +90,6 @@ nav li a {
   display: block;
   text-align: center;
   transition: background-color 1.0s, box-shadow 1.0s;
-  text-shadow: 1px 1px 20px #fff;
 }
 nav li a:hover {
   background-color: #2d5d81;
@@ -92,6 +104,19 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   font-family: "Merriweather", serif;
+}
+main .feattext {
+  text-shadow: 4px 3px 3px #999;
+  grid-column: span 3;
+  text-align: center;
+}
+main h2:after {
+  content: ""; /* This is necessary for the pseudo element to work. */ 
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 250px; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid black;
 }
 main .audioplayer {
   grid-column: span 1;
@@ -135,6 +160,7 @@ footer p {
   font-family: "Courier Prime", monospace;
   color: white;
   grid-column: span 1;
+  text-shadow: 2px 3px 4px rgb(236, 34, 34);
 }
 footer .icons {
   text-align: right;

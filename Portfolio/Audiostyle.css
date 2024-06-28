@@ -11,6 +11,7 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
+  border-radius: 15px;
 }
 
 header {
@@ -53,7 +54,6 @@ nav li a {
   display: block;
   text-align: center;
   transition: background-color 1.0s, box-shadow 1.0s;
-  text-shadow: 1px 1px 20px #fff;
   width: 200px;
 }
 nav li a:hover {
@@ -71,14 +71,16 @@ main {
   font-family: "Merriweather", serif;
 }
 main .audioplayer {
-  margin: 7px;
+  margin: 7px 0px 7px 10px;
   border: 3px solid #6d6d6d;
   border-radius: 20px;
   box-shadow: 7px 7px 10px #999;
 }
 main .audioplayertext p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 main .audioplayergroup {
   grid-column: span 1;
@@ -138,6 +140,7 @@ footer p {
   font-family: "Courier Prime", monospace;
   color: white;
   grid-column: span 1;
+  text-shadow: 2px 3px 4px rgb(236, 34, 34);
 }
 footer .icons {
   text-align: right;

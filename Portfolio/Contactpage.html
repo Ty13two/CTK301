@@ -3,10 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Contact/About Me</title>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Cutive+Mono&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 	<link href="Contactstyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -18,18 +26,36 @@
 			<ul>
 				<li><a href="Mainpage.html">Home</a></li>
 				<li><a href="Audiopage.html">Audio</a></li>
-				<li><a href="Visualpage.html">Visual/Video</a></li>
-				<li><a href="Contactpage.html">Contact</a></li>
+				<li><a href="Visualpage.html">Visual</a></li>
+				<li><a href="Contactpage.html">Contact/About</a></li>
 			</ul>
 		</nav>
 
 		<main>
-			
+			<h2>Email</h2>
+			<h3>ILSTU</h3>
+			<p>trlavig@ilstu.edu</p>
+			<h3>Personal</h3>
+			<p>tylerlavigne132@gmail.com</p>
+
+			<div class="icons">
+				<a class="bi bi-instagram" href="https://www.instagram.com/ty13two/" target="_blank"></a>
+				<p>Instagram</p>
+				<a class="bi bi-music-note-beamed" href="https://tylerlavigne.bandcamp.com/" target="_blank"></a>
+				<p>Bandcamp</p>
+				<a class="bi bi-linkedin" href="https://www.linkedin.com/in/tyler-l-425835270/" target="_blank"></a>
+				<p>LinkedIn</p>
+			</div>
 		</main>
 
 		<div class="Aboutme">
+			<div id="myCarousel" class="f-carousel">
+				<div class="f-carousel__slide"><img src="Aboutme-image1.jpg"></div>
+				<div class="f-carousel__slide"><img src="Aboutme-image2.jpg"></div>
+				<div class="f-carousel__slide"><img src="Aboutme-image3.jpg"></div>
+			</div>
 			<h2>About Me</h2>
-			<p>I am currently a sophmore at ISU studying in the Audio and Music Production sequence. I also play the trumpet in the ISU Pep Band. I enjoy listening to music, playing video games, and hanging out with my cat. <br> This is my cat below.</p>
+			<p>I am currently a sophmore at ISU majoring in CTK in the Audio and Music Production sequence. I also play the trumpet in the ISU Pep Band. I enjoy listening to music, playing video games, and hanging out with my cat. <br> This is my cat, Monkey. </p> <p class="catmessage">Look at how handsome he is!</p>
 
 			<a class="gallery" href="catimage-1.jpg" data-fancybox="gallery" data-caption="On a shelf">
 				<img src="catimage-thumb1.jpg">
@@ -46,18 +72,20 @@
 			<a class="gallery" href="catimage-5.jpg" data-fancybox="gallery" data-caption="Garage mat cat">
 				<img src="catimage-thumb5.jpg">
 			 </a>
-			<p class="promop">Also you should check out my cousin's <a href="https://open.spotify.com/artist/3KVU5CuRIHb0fpyYu1ZAFQ?si=ER2MRaU2RGWaea2BKb4plw" target="_blank">Spotify.</a> There's one song out currently, but he's been playing professionally in Austin, TX for a decent amount of time. If you like Noah Kahan, Zach Bryan, or folk-countryish music, you might like this!</p>
+			
+			 <p>My interest in audio and music production really started with theater in High School, where I found myself in charge of our sound console. I think producing music is extremely cool, and I've been playing music for awhile, but that's not what I envision myself doing in the future. I'm not really sure what I'd rather find myself doing, but it's probably closer to how I started, with a sound console bringing together different sounds to make one cohesive soundscape or story. </p>
 		</div>
 
 		<footer>
-			<p>Copyright</p> 
-			<div class="icons">
-				<a class="bi bi-snapchat" href="https://snapchat.com" target="_blank"></a>
-				<a class="bi bi-instagram" href="https://instagram.com" target="_blank"></a>
-				<a class="bi bi-twitter-x" href="https://x.com" target="_blank"></a>
-				<a class="bi bi-linkedin" href="https://linkedin.com" target="_blank"></a>
-			</div>
+			<p>Copyright Illinois State University</p> 
 		</footer>
 	</div>
+ <script>
+	Fancybox.bind("[data-fancybox]", {});
+
+	const container = document.getElementById("myCarousel");
+	const options = { infinite: false };
+	new Carousel(container, options);
+ </script>
 </body>
 </html>
